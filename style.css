@@ -1,0 +1,92 @@
+body {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo a {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+}
+.navegacao ul a{
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+    display: inline-block;
+}
+
+.content {
+    text-align: center;
+}
+.content h1 {
+    font-size: 55px;
+}
+.content p {
+    color: #868e96;
+}
+.navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navegacao ul li {
+    list-style: none;
+    display: inline-block;
+}
+header {
+    border: solid 1px black;
+    padding: 10px 10px;
+}
+.navegacao {
+    text-decoration: none;
+}
+.conteudos {
+    width: 300px;
+    height: 300px;
+    border: solid 1px black;
+}
+.projects {
+    width: 300px;
+    height: 300px;
+    border: solid 1px black;
+}
+.projects h1 {
+    font-size: 20px;
+    padding: 0px 30px;
+}
+.projects a {
+    font-size: 20px;
+    color: black;
+}
+
+.projects ul li {
+    padding: 3px 0px;
+}
+.projects ul li a {
+    text-decoration: none;
+}
+.two-contents {
+    width: 300px;
+    height: 300px;
+    border: solid 1px black;
+}
+.two-contents a {
+    color: blue;
+}
